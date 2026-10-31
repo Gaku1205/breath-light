@@ -1,17 +1,22 @@
 :root {
-  --bg: #0a0a0b;
-  --text: #dedfe3;
+  --bg: #1b2236;
+  --bg-done: #33456b;
+  --vessel: #252f4a;
+  --light: #f3e3b8;
+  --light-hover: #faefd2;
+  --light-press: #e3d09e;
+  --text: #eceef3;
+  --text-sub: #aeb6c9;
+  --on-light: #1b2236;
+
+  color-scheme: dark;
 }
 
 body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: system-ui, sans-serif;
-}
-
-.container {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 48px 20px;
+  font-family: var(--font-ja), system-ui, sans-serif;
+  word-break: auto-phrase;
+  -webkit-text-size-adjust: 100%;
 }
